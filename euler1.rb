@@ -1,0 +1,36 @@
+Euler Problem #1
+
+range = 1..999
+
+a = []
+
+range.each do |i|
+  if i % 3 == 0
+    a << i
+  elsif i % 5 == 0
+    a << i
+  end
+end
+
+b = []
+range.each do |i|
+  if i % 3 == 0
+    b << i
+  end
+  if i % 5 == 0
+    b << i
+  end
+end
+
+sum = 0
+
+a.each do |i|
+  sum+=i
+end
+
+sum2 = 0
+
+a.each do |i|
+  sum2 + i
+  sum2
+end
