@@ -49,4 +49,4 @@ seq.each do |num|
     puts num
   end
 end
-puts "answer: " + sum.to_s
+puts "Solution: " + sum.to_s
